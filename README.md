@@ -1,6 +1,8 @@
 # midicap
 ## Stand-alone, pure Python MIDI music captioner and analyzer
 
+<img width="1536" height="1024" alt="midicap" src="https://github.com/user-attachments/assets/7a091987-9fc5-4eaa-8314-42d8405fd2fe" />
+
 ***
 
 ## Installation
