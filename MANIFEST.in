@@ -1,0 +1,3 @@
+include midicap/README.md
+recursive-include midicap/ *
+recursive-include midicap/artwork *
