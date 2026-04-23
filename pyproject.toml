@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "midicap"
-version = "26.4.22"
+version = "26.4.23"
 description = "Stand-alone, pure Python MIDI music captioner and analyzer"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
