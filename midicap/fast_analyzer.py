@@ -2088,7 +2088,7 @@ def _lowercase_human_dict(d):
 # ─── MASTER ANALYSIS ──────────────────────────────────────────────────────
 # ---------------------------------------------------------------------------
 
-def analyze_midi(filepath: str, top_n_instruments: int = 5,
+def analyze_midi_fast(filepath: str, top_n_instruments: int = 5,
                  top_n_drums: int = 3, chord_threshold: float = 10.0,
                  overlap_threshold: float = 40.0,
                  top_n_chords: int = 5,
@@ -2098,7 +2098,7 @@ def analyze_midi(filepath: str, top_n_instruments: int = 5,
                  ) -> Tuple[Dict, Dict]:
     
     """
-    Perform comprehensive musical analysis of a MIDI file.
+    Perform comprehensive musical analysis of a MIDI file fast.
 
     Extracts and classifies musical features including metadata (tempo, time signature, key),
     instrumentation (GM patches, drum sets, instrument families), harmonic content (chords,
